@@ -65,7 +65,7 @@ export function TaskModal({ open, onOpenChange, editTask }: TaskModalProps) {
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="glass-card !bg-card/95 sm:max-w-[500px]">
+      <DialogContent className="sm:max-w-[500px]">
         <DialogHeader>
           <DialogTitle className="text-xl font-semibold">
             {editTask ? "Edit Task" : "Add New Task"}
